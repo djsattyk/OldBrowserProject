@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+<body background="websitebackground.jpg">
+
+<style>
+
+h1, h2, h3{ 
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.div-that-you-want-to-stand-out { 
+    box-shadow: 0 0 1em 1em #ccc;
+}
+
+
+ body { 
+ 	background-color: rgba(0,0,0,.5);
+    background: url(/img/cream_dust.png) repeat 0 0;
+	background-color: lightgreen;
+	color: forestgreen;
+	font-family: "Lato", serif;
+}
+
+</style>
+
+<center><h1> If Your Java Applet is not Running</h1></center>
+
+<center><applet code = "electricityUse.class" width = 400 height= 100>
+
+</applet>
+</center>
+<body>
+<h3><center>For some reason your java applet is not able to run. Here are some explanations on why:</center></h3>
+<ol>
+<center><li>Your browser is out of date</li></center>
+<center><li>Your java is out of date</li></center>
+</ol>
+<br>
+<br>
+<h3><center>Click the "Find out your the status of your browser!" button. Match the status with the corresponding browser version on the update link for each respective browser. If you are using firefox it should have already told you whether or not your browser needs an update.</center></h3>
+<center><button onclick="myFunction()">Find out your the status of your browser!</button></center>
+    <div id="example"></div>
+
+<script>
+function myFunction() {
+alert("\nBrowser Version: " + navigator.userAgent);
+}
+</script>
+
+<center><ul>
+<li>Google Chrome:49</li>
+<li>Opera:34</li>
+<li>Firefox:39</li>
+<li>Safari:5</li>
+<li>Microsoft Edge:10</li>
+</ul></center>
+<h3><center>Click the "Find out your Java Version" button. If your version is before 1.8.0_66, update your java.</center></h3>
+
+<center><button onclick="New_function()">Find out your Java Version</button></center>
+    <div id="example"></div>
+<script src="http://www.java.com/js/deployJava.js"></script>
+<script>
+function New_function(){
+alert(deployJava.getJREs());
+}
+</script>
+
+<script type="text/javascript">
+
+if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)){ //Use code from http://www.javascriptkit.com/javatutors/navigator.shtml to find last digits in userAgent
+ var ffversion=new Number(RegExp.$1) 
+ if (ffversion>=35)
+alert("No browser update needed")
+ else if (ffversion>=5)
+alert("You can update your browser")
+ else if (ffversion>=4)
+alert("You can update your browser")
+ else if (ffversion>=3)
+alert("You can update your browser")
+ else if (ffversion>=2)
+alert("You can update your browser")
+ else if (ffversion>=1)
+alert("You can update your browser")
+}
+
+</script>
+
+
+<h2><center>Please check these links for the updated versions of browsers:</center></h2>
+<p><center>If your Safari is not version 5:</center></p>
+
+<a href="https://support.apple.com/downloads/safari"> <center> <img src= "http://icons.iconarchive.com/icons/morcha/browsers/256/Safari-icon.png" style="width:250px;height:250p;"> </center></a>
+
+<p><center>If your firefox is not version 35:</center></p>
+
+<a href="https://support.mozilla.org/en-US/kb/update-firefox-latest-version"> <center><img src= "http://people.mozilla.org/~faaborg/files/shiretoko/firefoxIcon/firefox-512-noshadow.png" style="width:250px;height:250px;"><center></a>
+<p><center>If your Opera is not version 34:</center></p>
+
+<a href="http://www.opera.com/docs/history/"><center> <img src= "http://www-static.opera.com/static-heap/75/759b5d5a74e1be5fdfd0fd1fed338c9d1c6cbb33/opera-152.png" style="width:250px;height:250p;"></center> </a>
+
+<p>If your Google Chrome is not version 49:</p>
+
+<a href="https://support.google.com/chrome/answer/95346?hl=en"> <img src= "http://www.softwarecrew.com/wp-content/uploads/2012/01/chrome_200x175_transparent.gif" style="width:275px;height:245;"> </a>
+
+<p>If your Microsoft Edge is not version 10:</p>
+
+<a href="https://www.microsoft.com/en-us/windows/microsoft-edge#O3C6tu5iyJ1d1iSV.97"> <img src="https://cdn1.vox-cdn.com/uploads/chorus_asset/file/3665120/Microsoft_Edge_logo.svg.0.png" style="width:200px;height:200px;"> </a>
+
+<head>
+<h1>If your Java is out of date</h1>
+</head>
+
+<body>
+<p>Click here to update your Java</p>
+<a href="https://www.java.com/en/download/"> <img src= "https://choens.github.io/why-r/img/logos/java.png" style= "width: 250px; height: 250px;"> </a>
+</body>
+</body>
+
+</body>
+</head>
+</html>
+
+ 
+</body>
+</html>
+
